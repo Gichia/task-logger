@@ -1,13 +1,6 @@
 {
   "logs": [
     {
-      "message": "Change network card in server 007",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-01-25T11:32:58.249Z",
-      "id": 1
-    },
-    {
       "id": 2,
       "message": "Fixed harddrive on workstation 002",
       "attention": false,
