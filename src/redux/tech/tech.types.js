@@ -1,0 +1,9 @@
+export const ADD_TECH = 'ADD_TECH';
+export const GET_TECHS = 'GET_TECHS';
+export const CLEAR_TECHS = 'CLEAR_TECHS';
+export const UPDATE_TECH = 'UPDATE_TECH';
+export const DELETE_TECH = 'DELETE_TECH';
+export const TECHS_ERROR = 'TECHS_ERROR';
+export const SEARCH_TECHS = 'SEARCH_TECHS';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
