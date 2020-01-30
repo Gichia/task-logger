@@ -6,4 +6,5 @@ export const DELETE_TECH = 'DELETE_TECH';
 export const TECHS_ERROR = 'TECHS_ERROR';
 export const SEARCH_TECHS = 'SEARCH_TECHS';
 export const SET_CURRENT = 'SET_CURRENT';
+export const SET_LOADING = 'SET_LOADING';
 export const CLEAR_CURRENT = 'CLEAR_CURRENT';

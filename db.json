@@ -1,40 +1,42 @@
 {
   "logs": [
     {
-      "id": 2,
-      "message": "Fixed harddrive on workstation 002",
+      "id": 3,
+      "message": "Fixed router on workstation 1122 today",
       "attention": false,
-      "tech": "Sam Smith",
-      "date": "2020-01-25T15:17:45.351Z"
+      "tech": "Peter Gichia",
+      "date": "2020-01-30T08:57:43.357Z"
     },
     {
-      "id": 3,
-      "message": "Fixed router on workstation 1122",
+      "id": 4,
+      "message": "Just fixed the server now",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2020-01-25T15:27:35.137Z"
+      "tech": "Peter Gichia",
+      "date": "2020-01-30T07:59:19.460Z"
+    },
+    {
+      "message": "A server just crushed somewhere",
+      "attention": true,
+      "tech": "Peter Gichia",
+      "date": "2020-01-30T08:59:06.985Z",
+      "id": 5
     }
   ],
   "techs": [
     {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
-    },
-    {
-      "id": 3,
-      "firstName": "Sara",
-      "lastName": "Wilson"
-    },
-    {
       "firstName": "Peter",
       "lastName": "Gichia",
-      "id": 4
+      "id": 1
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Wilson",
+      "id": 2
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Smith",
+      "id": 3
     }
   ]
 }

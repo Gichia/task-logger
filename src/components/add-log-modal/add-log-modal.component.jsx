@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 
 import { addLog } from '../../redux/log/log.actions';
 
+import TechSelectOptions from '../tech-select-options/tech-select-options.component';
+
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const AddLogModal = ({ addLog }) => {
@@ -58,9 +60,7 @@ const AddLogModal = ({ addLog }) => {
                             onChange={e => setTech(e.target.value)}
                         >
                             <option value="" disabled>Select Technician</option>
-                            <option value="Sam Smith">Sam Smith</option>
-                            <option value="John Doe">John Doe</option>
-                            <option value="Sara Wilson">Sara Wilson</option>
+                            <TechSelectOptions />
                         </select>
                     </div>
                 </div>
